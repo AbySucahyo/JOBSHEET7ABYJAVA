@@ -10,6 +10,10 @@ package Latihan;
  * @author Aby
  */
 public class CobaPercabangan1 {
+    public static void main(String[] args) {
+        
     String identitas = "Aby Sucahyo / XRPL5 / 01";
     System.out.println("identitas : "+ identitas);
+ 
+        }
 }
