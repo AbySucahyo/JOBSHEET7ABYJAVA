@@ -80,5 +80,12 @@ switch(a) {
     case 5: System.out.println("Nilai => 5"); break;
     default: System.out.println("Nilai bukan antara 1-5");
 }
+int nilai;
+System.out.println("\nNilai Anda ? ");
+nilai = scanner.nextInt();
+
+String grade = (nilai < 75) ? "belum kompeten" : "kompeten";
+System.out.println(nilai + "=>" + grade);
+
         }
       }
