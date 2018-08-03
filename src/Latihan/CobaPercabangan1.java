@@ -71,6 +71,14 @@ if (a < 7) {
     if (a < 4)
         System.out.println("Nilai a kurang dari 4");
 }
-
+System.out.println("\nSWITCH..CASE");
+switch(a) {
+    case 1: System.out.println("Nilai => 1"); break;
+    case 2: System.out.println("Nilai => 2"); break;
+    case 3:
+    case 4: System.out.println("Nilai => 3 atau 4"); break;
+    case 5: System.out.println("Nilai => 5"); break;
+    default: System.out.println("Nilai bukan antara 1-5");
+}
         }
       }
