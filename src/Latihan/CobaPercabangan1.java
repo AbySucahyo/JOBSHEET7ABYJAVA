@@ -63,6 +63,14 @@ if (a < 2) {
 } else {
     System.out.println("Nilai a lebih dari 6");
 }
+System.out.println("\nNested IF");
+if (a < 7) {
+    System.out.println("Nilai a kurang dari 7");
+    if (a > 2) 
+        System.out.println("Nilai a lebih dari 2");
+    if (a < 4)
+        System.out.println("Nilai a kurang dari 4");
+}
 
         }
       }
