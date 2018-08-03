@@ -86,6 +86,5 @@ nilai = scanner.nextInt();
 
 String grade = (nilai < 75) ? "belum kompeten" : "kompeten";
 System.out.println(nilai + "=>" + grade);
-
         }
       }
