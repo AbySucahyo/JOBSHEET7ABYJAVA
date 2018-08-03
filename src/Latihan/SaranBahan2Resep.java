@@ -26,5 +26,26 @@ public class SaranBahan2Resep {
          System.out.println("Masukkan no pilihan Anda: ");
          int bahan1 = scanner.nextInt();
          
+         if(bahan1 == 1 || bahan1 == 2)
+         {
+             System.out.println("Bahan Kedua: ");
+             if(bahan1 == 1) {
+                 System.out.println("1. Susu");
+                 System.out.println("2. Minyak Goreng");
+                 System.out.println("3. Tidak Ada");
+             }else{
+                 System.out.println("1. Susu");
+                 System.out.println("2. Roti");
+                 System.err.println("3. Tidak Ada");
+             }
+             System.err.println("Masukkan no pilhan Anda ");
+             int bahan2 = scanner.nextInt();
+             
+             
+         }else 
+             System.out.println("Mohan Maaf, Pilihan tidak ditemukan,"
+                     + "Tidak memberikan Saran Resep");
+         
+                     
     }
 }
