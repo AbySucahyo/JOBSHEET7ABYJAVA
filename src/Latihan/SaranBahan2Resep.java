@@ -34,11 +34,11 @@ public class SaranBahan2Resep {
                  System.out.println("2. Minyak Goreng");
                  System.out.println("3. Tidak Ada");
              }else{
-                 System.out.println("1. Susu");
+                 System.out.println("1. Minyak Goreng");
                  System.out.println("2. Roti");
                  System.err.println("3. Tidak Ada");
              }
-             System.err.println("Masukkan no pilhan Anda ");
+             System.out.println("Masukkan no pilhan Anda ");
              int bahan2 = scanner.nextInt();
              
              
